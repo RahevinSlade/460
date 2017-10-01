@@ -1,0 +1,70 @@
+/* CSS Style Sheet  */
+a{
+    color: purple;
+    text-decoration: none;
+}
+
+a:hover {
+    color:red;
+}
+
+img{
+    width: 180px;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+ol {
+    text-align: left;
+}
+
+body{
+    background-color:#EEE;
+}
+
+#container{
+background-color: white;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#header{
+    text-align: center;
+    background-color: #5555C0;
+    color: white;
+}
+
+#content{
+    padding: 10px;
+    display: flex;
+}
+
+#nav{
+  width: 180px;
+  float: left;
+  padding: 10px;
+}
+
+#main{
+ width: 600px;
+ float: center;
+ flex-grow: 1;
+ padding: 10px;
+}
+
+#dec{
+    margin-top: 140px;
+    width: 180px;
+    float: right;
+    padding: 10px;
+}
+
+#footer{
+    clear: both;
+    text-align: right;
+    
+}
